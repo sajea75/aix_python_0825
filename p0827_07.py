@@ -1,12 +1,21 @@
-# 정렬 순차정렬(sort), 역순정렬 sort(renerse=true)
-arr = [1,15,8,23,2]
-arr.sort ()
-print(arr)
-arr.sort(reverse=True)
-print(arr)
+# arr = [1.3,5,7,9]
+# if 6 not in arr:
+#     print("원하는 수가 있습니다.")
+# else:
+#     print("원하는 수가 없습니다.")
 
 
- # 리스트 삭제 - del,pop,remove
+
+
+# # 정렬 순차정렬(sort), 역순정렬 sort(renerse=true)
+# arr = [1,15,8,23,2]
+# arr.sort ()
+# print(arr)
+# arr.sort(reverse=True)
+# print(arr)
+
+
+# 리스트 삭제 - del,pop,remove
 # arr =[1,2,3,4,5,True,"안녕"]
 # # pop
 # print(arr)
