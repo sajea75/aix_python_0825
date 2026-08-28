@@ -1,3 +1,7 @@
+
+
+
+
 paper = """\
 네팔 대홍수 참사 수습이 언제 끝날지도 모르는 상황에서
 2차 홍수가 덮칠 수 있다는 관측이 나오고 있습니다.
@@ -31,7 +35,7 @@ print(aaa1)
 print(aaa1.strip())
 
 aaa2 = "   안녕   하세요   "
-print(aaa2.strip())이병호  [오전 11:42]
+print(aaa2.strip())
 # 문자열함수
 # split, strip, replace, find, rfind
 

@@ -16,3 +16,10 @@ else:print("홀수")
 
 resuit = "짝수" if f%2==0 else "홀수"
 print(resuit)
+
+
+
+
+
+a = input 타입 : 3 * 2.54
+b =
