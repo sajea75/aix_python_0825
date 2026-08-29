@@ -1,0 +1,25 @@
+a = "11"
+print(type(int(a)))
+
+b = 1.1
+print(int(b))
+print(float(b))
+
+c =10
+d =3
+e =10//3 
+print(type(e))
+
+f = 5
+if f&2==0:print("짝수")
+else:print("홀수")
+
+resuit = "짝수" if f%2==0 else "홀수"
+print(resuit)
+
+
+
+
+
+a = input 타입 : 3 * 2.54
+b =
