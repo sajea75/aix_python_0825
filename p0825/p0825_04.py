@@ -17,7 +17,7 @@ print(a%b) # 나머지 0
 print(a**b) #제곱 100000
 print(a+b)
 print(a-b)
-printa(a*b)
+print(a*b)
 print(a/b)
 print(a//b)
 print(a%b)
