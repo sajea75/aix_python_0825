@@ -1,13 +1,13 @@
-a = 9
-b = 2
-print(a/b)
-print(a//b) # 몫
-print(a%b) # 나머지
+# a = 9
+# b = 2
+# print(a/b)
+# print(a//b) # 몫
+# print(a%b) # 나머지
 
-# a = 5 
-# 짝수,홀수인지?
-a = int(input("숫자를 입력 하세요."))
-print(a%2==1)
+# # a = 5 
+# # 짝수,홀수인지?
+# a = int(input("숫자를 입력 하세요."))
+# print(a%2==1)
 
 
 
@@ -20,7 +20,7 @@ print(a%2==1)
 # print(bin(5)) # 101
 
 # 2진수를 10진수 출력 하는 방법
-print(int("101",2))
+# print(int("101",2))
 
 # a = b = 1
 # print(a,b)
@@ -47,12 +47,12 @@ print(int("101",2))
 # 송금금액 : 100
 # 총금액 : 1100
 
-total1 = 1000
-send = int(input("송금금액을 입력하세요."))
-total2 = total1+send
+# total1 = 1000
+# send = int(input("송금금액을 입력하세요."))
+# total2 = total1+send
 
-print("잔액 : ",total1)
-print("송금금액 : ",send)
-print("총금액 : ",total2)
-print("잔액 : {}, 송금금액 : {}, 총금액 : {}".format(total1,send,total2))
+# print("잔액 : ",total1)
+# print("송금금액 : ",send)
+# print("총금액 : ",total2)
+# print("잔액 : {}, 송금금액 : {}, 총금액 : {}".format(total1,send,total2))
 
