@@ -1,53 +1,45 @@
+-0,0 +1,44 
 # 타입 확인
-a =100
-b =10.1
+a = 100
+b = 10.1
 c = "안녕"
+d = True
 # c가 무슨타입?
-# 타입 확인 방법 type(a)
+# 타입 확인방법 type(a)
 print(type(a))
 print(type(b))
 print(type(c))
 print(type(d))
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
-print(a//b) #몫 2
-print(a%b) # 나머지 0
-print(a**b) #제곱 100000
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
-print(a//b)
-print(a%b)
-print(a**b)
 
-      
 
-a = 10   # 숫자형타입 - 정수타입
-b = 10.1 # 숫자형타입 - 실수타입, 소수점
-aa = "안녕" # 문자열 타입
-abc = True # 불타입(bool) -True,False / boolean
+# a = 9
+# b = 4
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a/b)
+# print(a//b) #몫 2
+# print(a%b)  #나머지 0
+# print(a**b) #제곱 100000
+
+# print(10+5)
+# print(10-5)
+# print(10*5)
+# print(10/5)
+# print(10//5) #몫 2
+# print(10%5)  #나머지 0
+# print(10**5) #제곱 100000
+
+
+
+
+# 변수 : 값을 저장하는 공간, 타입은 값을 입력할때 정해짐.
+# 타입 : 4개 숫자형타입(정수타입,실수타입),문자열타입,불타입
+# a = 10      # 숫자형타입 - 정수타입
+# b = 10.1    # 숫자형타입 - 실수타입, 소수점
+# aa = "안녕" # 문자열타입
+# abc = True  # 불타입(bool) - True,False / boolean
 
 # 예약어는 변수로 사용할수 없음.
-# teue = 1
-# p
-
-# 하나만 축력 합니다.
-print("# 하나만 출력 합니다.")
-print("hello pyton programming...!")
-print()
-
-#여려 개를 출력합니다.
-print("# 여러 개를 출력 합니다.")
-print(10, 20, 30, 40, 50)
-print("안녕하세요", "저의", "이름은" "홍길동입니다!")
-print()
-
-# 아무것도 입력하지 않으면 단순하게 줄바꿈합니다.
-print("# 아무것도 출력하지 않습니다.")
-print("---확인 전용선 ---")
-print()
-print()
-print("--- 확인 전용선 ---")
+# True = 1
+# print = 5

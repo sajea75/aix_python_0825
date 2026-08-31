@@ -2,9 +2,9 @@ import random
 
 # 로또 랜덤부분
 lotto = random.sample(range(1,46),6)
-
-# 6개 입력부분
-myNum = []  # 6개 입력
+# print("확인로또>> : ",lotto)
+# 입력6개
+myNum = []
 i = 0
 while i<6:
     no = int(input("숫자입력 : "))
@@ -12,30 +12,7 @@ while i<6:
         myNum.append(no)
         i = i+1
     else:
-        print("번호가 있습니다.")
-
-# 정답확인 부분
-answer = []
-count = 0
-for i in myNum:
-    if i in lotto:
-        count = count + 1
-        answer.append(i)
-
-import random
-
-# 로또 랜덤부분
-lotto = random.sample(range(1,46),6)
-# print("확인로또>> : ",lotto)
-# 입력6개
-myNum = []
-while i<6:
-    sno = int(input("숫자입력 : "))
-#     if no not in myNum:
-#         myNum.append(no)
-#         i = i+1
-#     else:
-#         print("번호가 있습니다.")
+        print("번호가 있습니다.")  
 
 # 맞는지 확인
 count = 0
@@ -43,7 +20,7 @@ answer = []
 for i in myNum:
     if i in lotto:
         count = count+1
-        answer.append(i
+        answer.append(i)
 
 print("로또번호 : ",lotto)
 print("입력한번호 : ",myNum)
@@ -53,7 +30,7 @@ print("정답개수 : ",count)
 
 
 # # 6개 입력부분
-# myNum = []  # 6개 입력
+# myNum = []  # 6개 입력 
 # i = 0
 # while i<6:
 #     no = int(input("숫자입력 : "))
@@ -61,7 +38,7 @@ print("정답개수 : ",count)
 #         myNum.append(no)
 #         i = i+1
 #     else:
-#         print("번호가 있습니다.")
+#         print("번호가 있습니다.")    
 
 # # 정답확인 부분
 # answer = []
@@ -103,7 +80,7 @@ print("정답개수 : ",count)
 # print(ranArr2)
 
 
-# myNum = []  # 6개 넣어야 하는데
+# myNum = []  # 6개 넣어야 하는데 
 # i = 0
 # while i<6:
 #     no = int(input("숫자입력 : "))
@@ -111,7 +88,7 @@ print("정답개수 : ",count)
 #         myNum.append(no)
 #         i = i+1
 #     else:
-#         print("번호가 있습니다.")
+#         print("번호가 있습니다.")        
 
 # print("입력숫자 : ",myNum)
 
@@ -119,12 +96,10 @@ print("정답개수 : ",count)
 
 
 
-
+    
 # for i in range(6):
 #     no = int(input("숫자입력 : "))
 #     if no not in myNum:
 #         myNum.append(no)
 #     else:
 #         print("번호가 있습니다.")
-
-

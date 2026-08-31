@@ -1,31 +1,28 @@
-# 구구단을 아래로 출력하시오.
-# for i in range(2,10):
-#     print(f"[{i}단]",end="\t")
-# print()
-# for i in range(1,10):
-#     for j in range(2,10):
-#         print("{}x{}={}".format(j,i,i*j),end='\t')
-#     print()
+name = []
+kor = []
+eng = []
+math = []
+total = []
+avg = []
+for i in range(3):
+    name.append(input("이름입력 :")) 
+    k_input = int(input("국어점수입력 : "))  
+    kor.append(k_input)
+    e_input = int(input("영어점수입력 : "))
+    eng.append(e_input)
+    m_input = int(input("수학점수입력 : "))
+    math.append(m_input)
+    total.append(k_input+e_input+m_input)
+    avg.append((k_input+e_input+m_input)/3)
 
-# sum = 0
-# alist = []
-# for i in range(3):
-#     input1 = int(input("숫자입력 : "))
-#     alist.append(input1)
-#     sum = sum + input1
+print("[ 학생성적 ]")
+print("번호\t이름\t국어\t영어\t수학\t합계\t평균\t")
+print("-"*60)
+for i in range(len(name)):
+    print(f"{i+1}\t{name[i]}\t{kor[i]}\t{eng[i]}\t{math[i]}\
+\t{total[i]}\t{avg[i]:.2f}")
 
-# name = []
-# kor = []
-# eng = []
-# for i in range(3):
-#     name.append(input("이름입력 :"))
-#     kor.append(int(input("국어점수입력 : ")))
-
-# print("[ 학생성적 ]")
-# for i in range(len(name)):
-#     print(f"{name[i]}\t{kor[i]}")
-
-# # [학생성적]
+# [학생성적]
 # 홍길동 70
 # 유관순 100
 # 이순신 90
@@ -40,7 +37,7 @@
 #     j = j+1
 
 # # enumerate : index번호,리스트값 2개 전달
-# for i,value in enumerate(list_a):
+# for i,value in enumerate(list_a):  
 #     print(i+1,":",value)
 
 # for i in range(len(list_a)):
@@ -52,7 +49,7 @@
 #     print(i)   # 1,2,3
 
 
-
+ 
 
 
 # list_a = ["바나나","딸기","사과"]
@@ -60,7 +57,7 @@
 #     list_a.append(input("과일입력 : "))
 
 # for i in list_a:
-#     print(i)
+#     print(i) 
 
 
 
@@ -88,7 +85,7 @@
 #     a,b = b,a
 #     # c = a
 #     # a = b
-#     # b = c
+#     # b = c 
 # for i in range(a,b+1):
 #     sum = sum + i
 # print("합 : ",sum)
@@ -118,7 +115,7 @@
 #     if i%7==0:
 #         print(i)
 #         sum = sum + i
-# print("합 : ",sum)
+# print("합 : ",sum)   
 
 # 홀수 합을 구하시오.
 # 7의 배수만 합을 구하시오.
@@ -145,11 +142,11 @@
 
 
 
-# sum = 0
-# result = 1
-# for i in range(1,11):
-#     sum = sum + i
-#     result = result * i
+sum = 0
+result = 1
+for i in range(1,11):
+    sum = sum + i
+    result = result * i
 
 # sum 이 100 넘을때 i값을 출력하시오.
 
@@ -157,39 +154,15 @@
 # print("합계 : ",sum)
 # print("곱 : {:,}".format(result))
 # # 합계 : 55
-# # 1-10까지 곱 :
+# # 1-10까지 곱 : 
 
 
 
 # # 구구단을 아래로 출력하시오.
 # for i in range(2,10):
 #     print(f"[{i}단]",end="\t")
-# print()
+# print()     
 # for i in range(1,10):
 #     for j in range(2,10):
-#         print("{}x{}={}".format(j,i,i*j),end='\t')
-#     print()
-
-# name = []
-# kor = []
-# eng = []
-# math = []
-# total = []
-# avg = []
-# for i in range(3):
-#     name.append(input("이름입력 :"))
-#     k_input = int(input("국어점수입력 : "))
-#     kor.append(k_input)
-#     e_input = int(input("영어점수입력 : "))
-#     eng.append(e_input)
-#     m_input = int(input("수학점수입력 : "))
-#     math.append(m_input)
-#     total.append(k_input+e_input+m_input)
-#     avg.append((k_input+e_input+m_input)/3)
-
-# print("[ 학생성적 ]")
-# print("번호\t이름\t국어\t영어\t수학\t합계\t평균\t")
-# print("-"*60)
-# for i in range(len(name)):
-#     print(f"{i+1}\t{name[i]}\t{kor[i]}\t{eng[i]}\t{math[i]}\
-# \t{total[i]}\t{avg[i]:.2f}")
+#         print("{}x{}={}".format(j,i,i*j),end='\t') 
+#     print() 
