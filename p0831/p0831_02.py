@@ -49,10 +49,7 @@ for i in range(len(name)):
 #     print(i)   # 1,2,3
 
 
- 
-
-
-# list_a = ["바나나","딸기","사과"]
+ # list_a = ["바나나","딸기","사과"]
 # for i in range(3):
 #     list_a.append(input("과일입력 : "))
 
@@ -157,12 +154,11 @@ for i in range(1,11):
 # # 1-10까지 곱 : 
 
 
-
-# # 구구단을 아래로 출력하시오.
-# for i in range(2,10):
-#     print(f"[{i}단]",end="\t")
-# print()     
-# for i in range(1,10):
-#     for j in range(2,10):
-#         print("{}x{}={}".format(j,i,i*j),end='\t') 
-#     print() 
+ # 구구단을 아래로 출력하시오.
+for i in range(2,10):
+    print(f"[{i}단]",end="\t") 
+    print()     
+    for i in range(1,10):
+     for j in range(2,10):         
+            print("{}x{}={}".format(j,i,i*j),end='\t') 
+    print() 
