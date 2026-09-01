@@ -40,7 +40,7 @@ while True:
 
     elif choice == 4:
         print("[ 학생성적삭제 ]")
-
+        
     elif choice == 5:
         print("[ 학생검색 ]")
 

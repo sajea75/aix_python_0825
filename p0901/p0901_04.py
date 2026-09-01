@@ -28,15 +28,6 @@ for s in stu_list:
     print("{}\t{}\t{}\t{}\t{}\t{}\t{:.2f}".format(*s))
 
 
-
-
-
-
-
-
-
-
-
 # [1,2,3,4,5,6,7,8,9] 1차원리스트
 # 리스트 - 직접입력,[0]*9,list(range(1,10))
 # num_arr = list(range(1,10))
@@ -49,3 +40,8 @@ for s in stu_list:
 #     # all_arr.append(num_arr[3:3+3])  #3-6 / 3,4,5
 #     # all_arr.append(num_arr[6:6+3])  #6-9 / 6,7,8
 # print(all_arr)
+
+
+
+
+

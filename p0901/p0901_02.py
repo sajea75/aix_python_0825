@@ -6,7 +6,6 @@
 # 5. 결과 출력
 
 import random
-<<<<<<< HEAD
 ran_no = random.randint(1,100)
 
 # 반복문 : for-반복/회수지정,while-조건
@@ -26,5 +25,4 @@ while True:
 
 print("입력한 모든 리스트 : ",in_arr)
 print("정답 : ",in_arr[-1])
-=======
->>>>>>> e1ffc8ad45866bd48fa3f434b4bdf8681b02aa20
+
