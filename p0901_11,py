@@ -1,0 +1,99 @@
+alist = list(range(1,21))
+nlist = []
+for a in alist:
+    if a%3==0: nlist.append(a)
+print(nlist)
+
+a = [n for n in range(1,21) if n%3==0]
+print(a)
+
+# name_dic = {
+#     "aaa":'토마토',"ddd":"바나나","eee":"딸기","bbb":"배"
+# }
+
+# [b,c,a,k,l,d,z,y]
+
+# import operator
+# name_sort1 = []
+# name_sort1 = sorted(name_dic.items(),key=lambda x:x[1]) # 0번 키값 1번 벨류값.
+# name_sort1 = sorted(name_dic.items(),key=lambda x:x[0],reverse=True)
+
+# print(name_sort1)
+
+# # 리스트 자동생성방법 4가지
+# alist = [i for i in range(1,11)]
+# print(alist)
+
+# alist2 = list(range(1,11))
+# print(alist2)
+
+# alist3 = [0]*10
+# print(alist3)
+
+# alist4 = [1,2,3,4,5,6,7,8,9,10]
+# print(alist4)
+
+# engs = {
+#     "car":"자동차",
+#     "color":"색상",
+#     "girl":"소녀",
+#     "pig":"돼지",
+#     "love":"사랑",
+#     "phone": "전화기"
+# }
+
+# for k,v in engs.items():
+#     print(k,"는(은) 한국어로 무엇일까요?")
+#     anuswer = input("정답 :")
+#     if anuswer == v:
+#         print("[정답입니다.^^]")
+#     else:
+#         print("[ 오답입니다.TT]")
+
+# Name_dic = {
+#     "aaa": '토마토',"ddd":"바나나","eee":"딸기","bbb":"배"
+
+#  .sort1 = sorted(name_dic.items(),key=operator.it)   
+# }
+
+#
+# stu ={"no":1,"name":"홍길동","total":100}
+# for i,v in stu,items():
+#     print(i,":",v)
+
+# print(stu.keys())
+# print(stu.values())
+# print(stu.items())
+
+# stu = {"no":1,"name":"홍길동","kor":100,"eng":100,"math":100,"music":100}
+# stu_arr = [1,"홍길동",100,100,100]
+
+# # 딕셔너리 추가 : 없는 키값 입력
+# stu["total"] = 400
+# stu["avg"] = stu["total"]/4
+# print(stu)
+
+# # 딕셔너리 수정 : 있는 키값에 값을 넣으면 수정됨.
+# stu["kor"] = 50
+# print(stu)
+
+# # 딕셔너리 출력 : 키값 출력
+# print(stu["kor"])
+
+# # 딕셔너리 삭제 : del(키)
+# del(stu["eng"])
+# print(stu)
+
+# stu_list = [
+#     {"no":1,"name":"홍길동","kor":100,"eng":100,"math":100,"total":400,"avg":100.0},
+#     {"no":2,"name":"유관순","kor":100,"eng":100,"math":100,"total":400,"avg":100.0},
+#     {"no":3,"name":"이순신","kor":100,"eng":100,"math":100,"total":400,"avg":100.0},
+# ]
+
+# print(stu_list[0]['name']) = "홍길자"
+# print(stu_list[0]['kor'])
+# stu_list[0]['rank'] = 
+# del(stu_list)
+# print(stu_list)
+
+
