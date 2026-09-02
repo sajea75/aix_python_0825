@@ -1,7 +1,7 @@
 # print : 출력
 # print : 입력
 # num =input("숫자를 입력 하세요")
-print("입력숫자 : {}".format(num))
+# print("입력숫자 : {}".format(num))
 
 
 # a = inupt("1번째 숫자를 입력하세요.")) # str타입을 int 타입으로 변경
@@ -13,25 +13,25 @@ print("입력숫자 : {}".format(num))
 # print(a**b)  #10*10*10 / 10에 3승
 
 # 아이디,패스워드를 입력받아 출력하시오.
-아이디:aaa, 패스워드:1111
+# 아이디:aaa, 패스워드:1111
 
 a = input("아이디를 입력 하세요")
 b = input("패스워드를 입력하세요")
-print("아이디확인 : {}("aaa"==id)) #true,False
-print("패스워드확인 : {}".format("1111"==pw))
+print("아이디확인 : {}".format("aaa"==a)) #true,False
+print("패스워드확인 : {}".format("1111"==b))
 print("아이디")
 print("아이디:{}, 패스워드:{}".format(a,b))
 
 
+# a = 10
+# b = 3
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a/b)
+# print(a**b) #10*10*10 / 10에 3승
 
-b = 3
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
-print(a**b) #10*10*10 / 10에 3승
-
-#a = 10
+a = 10
 b = 3
 print(a+b)
 print(a-b)
@@ -45,7 +45,7 @@ num3 = 100
 print(num1,num2,num3)
 
 # 한줄에 여러변수에 1의 값을 넣는것 가능
-num4=num=5=num6=1
+num4 = num5 = num6 = 1
 print(num4,num5,num6)
 
 # 한줄에 여러변수에 여러게 을 넣는 것은 불가
