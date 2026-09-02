@@ -1,3 +1,7 @@
+# print(10 & 7)
+# print(bin(10))
+# print(bin(7))
+
 # 1 박영훈 100 100 100
 no = input("번호 입력>> ")
 name = input("이름 입력>> ")
@@ -49,3 +53,5 @@ print("-"*60)
 print("{}\t{}\t{}\t{}\t{}\t{}\t{:.2f}".\
 format(no4,name4,kor4,eng4,math4,total4,avg4))
 print("-"*60)
+
+

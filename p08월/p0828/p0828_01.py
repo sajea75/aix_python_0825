@@ -3,7 +3,7 @@
 # 3. 성적출력하도록 구성하시오.
 
 # 입력 -> 변수저장 -> DB저장
-s = [] # 리스트타입 - append,insert / pop,del,romove
+s = [] #리스트타입 - append,insert / pop,del,remove
 no = input("번호 입력 : ")      #str
 name = input("이름 입력 : ")
 kor = int(input("국어점수 입력 : "))  #int
@@ -18,4 +18,3 @@ print("-"*60)  #문자*반복
 print(f"{no}\t{name}\t{kor}\t{eng}\t{math}\t{total}\t{avg:.2f}")
 # print("{}\t{}\t{}\t{}\t{}\t{}\t{:.2f}".\
 #       format(no,name,kor,eng,math,total,avg))
-

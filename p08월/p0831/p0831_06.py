@@ -22,6 +22,11 @@ print("입력숫자 : ",no)
 print("정답숫자 : ",answer)
 print("정답개수 :",count)
 
+
+
+
+
+
 # ranNo = [1,5,9,7,4]
 # inputNo = [1,2,3,4]
 # answerNo = []
@@ -35,4 +40,4 @@ print("정답개수 :",count)
 #     else:
 #         print("없음")    
 
-# print("개수 : ",count) 
+# print("개수 : ",count)    

@@ -1,13 +1,17 @@
-### 앞뒤공백제거 - strip()
+from func import *
+
+main_print()
+
+### 1.앞뒤공백제거 - strip()
 a = "      abc       "
 print(a.strip()) #공백제거 -> a반영은 안됨.
 
-### 중간공백제거 - replace()
+### 2.중간공백제거 - replace()
 b = "     a      b"
 print(b.strip())
 print(b.replace(" ",""))
 
-### 분리 : split - 리스트타입으로 전달됨.
+### 3.분리 : split - 리스트타입으로 전달됨.
 c = "딸기,수박,바나나,사과"
 print(c)
 print(c.split(","))
@@ -23,21 +27,31 @@ dlist[6] = dlist[5]/3
 dlist2 = [str(i) for i in dlist]
 print(dlist)
 
-# 특정문자로 결합 - join  "1"+1
+# 4. 특정문자로 결합 - join  "1"+1
 # 문자열리스트만 변경가능 join결합
 # 문자열로 변환됨.
 d_str = ",".join(dlist2)
 print(d_str)
 
 # 5. count : 문자열안에 해당문자가 몇개 있는지 확인
-# 6. find : 문자열안에 해당문자가 위치 반환, 없으면 -1
-# 7, index : find와 동일, 없으면 에러 
+# 6. find : 문자열안에 해당문자 위치 반환, 없으면 -1
+# 7. index : find와 동일, 없으면 에러
+
+
+
+
+
+
+
 
 # # join
 # aa = "/"
 # bb = aa.join(["바나나","딸기","사과"])
 # print(bb)
 # print(type(bb))
+
+
+
 
 # ss = "   파이썬"       #파이썬 - strip
 # ss2 = "<<<<파<<이<썬"  #파이썬 -replace
@@ -49,12 +63,18 @@ print(d_str)
 
 # aa = [1,2,   3, 4 ,5]
 
+
+
+
 # ss = "파이썬 공부!! 열심히 합시다. 파이썬"
 # print(ss.count("공부"))
 # print(ss.count("파이썬"))
 # print(ss.find("공부"))  #4
 # print(ss.find("자바"))  #없을때 : -1
 # print(ss.index("자바")) # index는 없을때 에러
+
+
+
 
 # aa = "a/b/c/d/f/g"
 # aa_list = aa.split("/")
@@ -102,11 +122,11 @@ print(d_str)
 
 # for i,j in zip(a,b):
 #     c.append([i,j])
-# print(c)
+# print(c)    
 
 # for i in range(len(a)):
 #     c.append([a[i],b[i]])
-# print(c)
+# print(c)    
 
 
 
@@ -129,19 +149,19 @@ print(d_str)
 #         aa_dic[a] = 1
 #     else:
 #         aa_dic[a] = aa_dic[a]+1
-#         print("있습니다.")
+#         print("있습니다.")    
 
 # print(aa_dic)
 
 # 딕셔너리
-# a_dic = {"바나나":1,"딸기":3,"사과":2}
+# a_dic = {"바나나":1,"딸기":3,"사과":2} 
 # print(a_dic["바나나"])  #출력
 # a_dic["배"] = 5         #추가
-# print(a_dic)
+# print(a_dic) 
 # del a_dic["바나나"]      #삭제
-# print(a_dic)
+# print(a_dic) 
 # a_dic["사과"] = 100      #수정
-# print(a_dic)
+# print(a_dic) 
 
 # a = 10
 # a2 = 0

@@ -1,61 +1,59 @@
-# "# 1 홍길동
-# no = input("번호 입력>> ")
-# name = input("이름 입력>> ")
-# kor = int(input("국어점수 입력>> "))
-# eng = int(input("영어점수 입력>> "))
-# math = int(input("수학점수 입력>> "))
-# total = kor+eng+math
-# avg = total/3
+# 관계연산자 ==,!=,>,<,>=,<=
+# True, False bool타입으로 반환
 
-# # 2 유관순 100 100 91
-# no2 = input("번호 입력>> ")
-# name2 = input("이름 입력>> ")
-# kor2 = int(input("국어점수 입력>> "))
-# eng2 = int(input("영어점수 입력>> "))
-# math2 = int(input("수학점수 입력>> "))
-# total2 = kor2+eng2+math2
-# avg2 = total2/3
+
+# 프로그램 종료
+# 대문자 x 또는 X 를 입력하면 종료
+str1 = input("프로그램을 종료하려면 x 또는 X를 입력하세요.>>")
+if(str1=="x") or (str1=="X"):
+    print("프로그램이 종료되었습니다.")
+else:
+    print("프로그램을 계속실행합니다.")
+        
 
 
 
-# print("-"*60)
-# print("번호\t이름\t국어\t영어\t수학\t합계\t평균")
-# print("-"*60)
-# print("{}\t{}\t{}\t{}\t{}\t{}\t{:.2f}".\
-#       format(no,name,kor,eng,math,total,avg))
-# print("-"*60)
-# print("{}\t{}\t{}\t{}\t{}\t{}\t{:.2f}".\
-#       format(no2,name2,kor2,eng2,math2,total2,avg2))
-# print("-"*60)
+# 아이디,패스워드를 입력받아 맞는지 확인
+# 아이디 : aaa, 패스워드 : 1111
+# id = input("아이디를 입력하세요.>> ")
+# pw = input("패스워드를 입력하세요.>> ")
+# if (id=="aaa") and (pw=="1111"):
+#     print("로그인이 되었습니다. 메인페이지로 이동합니다")
+# else:
+#     print("아이디 또는 패스워드가 일치하지 않습니다.")    
+
+# a = 10
+# b = 5
+# print(a==b) # False
+# print(a!=b) # True
+# print(a>b)  # True
+# print(a<b)  # False
+
+
+
+# 산술연산자 : +,-,*,/,//,%,**
+
+# money = 12340
+# # 12340 -> 500원 동전 몇개? 340원 100동전 몇개? 40원 10동전 몇개?
+# # 12340원 500원 동전: ?, 100원 동전 : ?, 10원 : ?
+
+# result = money//500
+# num = money%500
+# print(result,num)
+# result2 = num//100
+# num2 = num%100
+# result3 = num2//10
+# print(result,result2,result3)
+
+
+# # 1270원 
+# # >> 500원 2개, 100원 2,10원 7개
 
 
 
 
-
-# # 1 홍길동 100 100 100
-# no = input("번호 입력>> ")
-# name = input("이름 입력>> ")
-# kor = int(input("국어점수 입력>> "))
-# eng = int(input("영어점수 입력>> "))
-# math = int(input("수학점수 입력>> "))
-# total = kor+eng+math
-# avg = total/3
-
-# # 2 유관순 100 100 91
-# no2 = input("번호 입력>> ")
-# name2 = input("이름 입력>> ")
-# kor2 = int(input("국어점수 입력>> "))
-# eng2 = int(input("영어점수 입력>> "))
-# math2 = int(input("수학점수 입력>> "))
-# total2 = kor2+eng2+math2
-# avg2 = total2/3
-
-# print("-"*60)
-# print("번호\t이름\t국어\t영어\t수학\t합계\t평균")
-# print("-"*60)
-# print("{}\t{}\t{}\t{}\t{}\t{}\t{:.2f}".\
-# format(no,name,kor,eng,math,total,avg))
-# print("-"*60)
-# print("{}\t{}\t{}\t{}\t{}\t{}\t{:.2f}".\
-# format(no2,name2,kor2,eng2,math2,total2,avg2))
-# print("-"*60)
+# # 500원 동전 몇개가 필요할까요?
+# # result = money//500
+# # print("500동전 필요개수 : ",result)
+# # result2 = money//100
+# # print("100동전 필요개수 : ",result2)

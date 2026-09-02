@@ -37,7 +37,7 @@ while True:
     if choice==1:
         gugudan_func()
     elif choice == 2:
-        number_func()
+        number_func()       
     else:
         cal_func()
     
