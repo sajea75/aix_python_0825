@@ -30,4 +30,5 @@ for i in in_arr:
 print("로또번호 : ",lotto)           
 print("입력번호 : ",in_arr)
 print("정답개수 : ",len(answer_arr))
-print("정답번호 : ",answer_arr)           
+print("정답번호 : ",answer_arr)    
+
