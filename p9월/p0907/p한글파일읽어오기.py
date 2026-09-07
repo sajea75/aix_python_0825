@@ -1,8 +1,10 @@
 # abc출력하시오.
-with open("c:/aaa/abc.txt","r",encoding="utf-8") as f:
-    while True:
-        str = readline()
-        
+# with open("c:/aaa/abc.txt","r",encoding="utf-8") as f:
+#     while True:
+#         str = f.readline()
+#         if str == "": break
+#         print(str,end="")
+
 
 
 # sum = 0
@@ -33,7 +35,32 @@ with open("c:/aaa/abc.txt","r",encoding="utf-8") as f:
 #             elif i==6:
 #                 stu[i] = float(s.strip()) # /n
 
-#         stuList.append(stu)
+#         stuList.append(stu) 
 
 #     print("파일읽어오기 완료!!")
-#     print(stuList)
+#     print(stuList)           
+
+
+        
+
+
+
+
+
+# # 한글은 꼭 ,encoding="utf-8"
+# # with 파일읽어오기 - close생략가능
+# with open("c:/aaa/abc.txt","r",encoding="utf-8") as f:
+#     while True:
+#         str = f.readline()
+#         if str == "": break
+#         print(str,end="")
+
+# open() 파일읽어오기
+# readFile = open("c:/aaa/abc.txt","r")
+# while True:
+#     str = readFile.readline()
+#     if str == "": break
+#     print(str,end="")
+# readFile.close()
+# print("프로그램 종료") 
+# 

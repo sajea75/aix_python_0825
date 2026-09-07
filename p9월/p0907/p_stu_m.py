@@ -20,6 +20,16 @@ def readStu():
             stuList.append(dict(zip(s_title,stu)))
             stuNum = len(stuList)+1
 
+# 학생성적파일 저장하기 - stuList의 모든것을 저장시킴
+def writeStu():
+    with open("c:/aaa/stu.txt","w",encoding="utf-8") as f:
+        for s in stuList:
+            str = f"{s['no']},{s['name']},{s['kor']},{s['eng']},{s['math']},{s['total']},{s['avg']},{s['rank']}"
+            f.write(str+"\n")
+        print("성적파일이 저장되었습니다.")
+        print() 
+
+
 
 # 0.메인화면함수 선언
 def main_screen():
@@ -66,12 +76,3 @@ def stu_output():
     for s in stuList:
         print(f"{s['no']}\t{s['name']}\t{s['kor']}\t{s['eng']}\t{s['math']}\t{s['total']}\t{s['avg']:.2f}\t{s['rank']}\t")
     print()
-
-# 학생성적파일 저장하기 - stuList의 모든것을 저장시킴
-def writeStu():
-    with open("c:/aaa/stu.txt","w",encoding="utf-8") as f:
-        for s in stuList:
-            str = f"{s['no']},{s['name']},{s['kor']},{s['eng']},{s['math']},{s['total']},{s['avg']},{s['rank']}"
-            f.write(str+"\n")
-        print("성적파일이 저장되었습니다.")
-        print()

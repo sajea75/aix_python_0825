@@ -1,7 +1,7 @@
 # import p_stu_m as pm
 from p_stu_m import *
 
-
+   
 
 
 readStu() # 파일불러오기
