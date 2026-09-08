@@ -1,8 +1,6 @@
-# import p_stu_m as pm
-from pfunc import *
 
-readStu()
-
+from stuFunc import *
+readStu() # 파일불러오기
 while True:
     # 0.메인화면함수
     choice = main_screen()
@@ -11,9 +9,11 @@ while True:
     elif choice == 2:
         stu_output()   # 2.학생성적출력함수
     elif choice == 3:
-        pass
+        stu_update()
+    elif choice == 8:
+        print("[ 등수처리 ]")    
     elif choice == 9:
-        writeStu() # 학생성적파일 저장하기
+        writeStu()
     else:
         print("프로그램 종료")
         break
