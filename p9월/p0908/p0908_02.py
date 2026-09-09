@@ -35,3 +35,4 @@ print("속도 : ",speed2)
 
 upSpeed2()
 print("속도2 : ",speed2)
+
