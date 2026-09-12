@@ -1,5 +1,5 @@
-from student import Student
-from students import Students
+from p9월.p0911.student import Student
+from p9월.p0911.students import Students
 
 # Students 객체선언
 stus = Students()
