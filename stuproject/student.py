@@ -33,4 +33,3 @@ class Student:
 
     def s_str(self):
         return f"{self.no},{self.name},{self.kor},{self.eng},{self.math},{self.total},{self.avg:.2f},{self.rank}"           
-

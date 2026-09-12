@@ -20,7 +20,7 @@ def p_cal(choice):
 while True:  #{"prd_name":"컴퓨터","price":1000000}
     for i,v in enumerate(s_arr): # (0,"컴퓨터"),(1,"냉장고")
         print(f"{i+1}. {v['prd_name']} : {v['price']:,} 원")
-
+   
     choice = int(input("원하는 번호를 입력하세요.>> "))
     if choice == 1:   # 컴퓨터 - 1000000
         p_cal(choice)

@@ -73,5 +73,3 @@ print(a_arr)
 
 
 
-
-

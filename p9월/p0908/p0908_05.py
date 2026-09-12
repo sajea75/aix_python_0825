@@ -1,5 +1,5 @@
 class Student:
-
+    
     def __init__(self,no,name,kor,eng,math):
         self.no = no
         self.name = name
@@ -10,7 +10,7 @@ class Student:
         self.avg = (kor+eng+math)/3
 
     def __str__(self):
-        return f"{self.no}\t{self.name}\t{self.kor}\t{self.eng}\t{self.math}\t{self.total}\t{self.avg:.2f}"
+        return f"{self.no}\t{self.name}\t{self.kor}\t{self.eng}\t{self.math}\t{self.total}\t{self.avg:.2f}"    
 
     def cal_total(self):
         self.total = self.kor + self.eng + self.math
@@ -27,7 +27,7 @@ class Students:
         self.slist.append(s)
     # 함수 : 함수호출시 실행됨.
     def add(self,s):
-        self.slist.append(s)
+        self.slist.append(s)     
 
 #------------------------
 # Students 객체선언
@@ -66,3 +66,6 @@ for ss in stu.slist:
 
 #     for s in stuList:
 #         print(s)
+
+
+

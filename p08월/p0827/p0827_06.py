@@ -177,8 +177,3 @@ reuslt = "합격" if score>=60 else "불합격"
 
 
 
-
-
-
-
-

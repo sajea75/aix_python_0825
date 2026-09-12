@@ -15,6 +15,3 @@ for i in range(100):
 
 for i in range(2):
     print("{}\t{}\t{}".format(stu[i][0],stu[i][1],stu[i][2]))
-
-
-

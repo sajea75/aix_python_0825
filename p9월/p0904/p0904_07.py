@@ -5,4 +5,6 @@ with open("c:/aaa/abc.txt","a",encoding="utf-8") as f:
         if line !="":
             f.writelines(line+"\n")  #\r:문장끝으로, \n:줄바꿈
         else:
-            print("파일이 저장되었습니다.")
+            break
+
+print("파일이 저장되었습니다.")

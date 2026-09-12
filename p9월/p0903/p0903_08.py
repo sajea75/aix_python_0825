@@ -23,4 +23,3 @@ print(7)
 #     if str == "": break
 #     print(str,end="")
 # news.close()    
-

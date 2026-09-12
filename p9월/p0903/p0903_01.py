@@ -23,4 +23,3 @@ n1 = int(input("숫자입력 : "))
 n2 = int(input("숫자입력 : "))
 r1,r2,r3,r4 = cal(n1,n2)
 print(r1,r2,r3,r4)
-

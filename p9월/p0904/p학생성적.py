@@ -113,3 +113,5 @@ while True:
        s_output()
     elif choice == 3: # 학생성적수정부분
        s_update() 
+
+        

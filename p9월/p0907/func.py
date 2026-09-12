@@ -11,4 +11,4 @@ def hap2(num1,num2):
 
 def hap3(num1,num2):
     sum = num1+num2
-    return sum
+    return su

@@ -26,6 +26,16 @@ print("번호\t이름\t국어\t영어\t수학\t합계\t평균")
 print("-"*60)
 for s in stu_list:
     print("{}\t{}\t{}\t{}\t{}\t{}\t{:.2f}".format(*s))
+    
+    
+
+
+
+
+
+
+
+
 
 
 # [1,2,3,4,5,6,7,8,9] 1차원리스트
@@ -40,8 +50,6 @@ for s in stu_list:
 #     # all_arr.append(num_arr[3:3+3])  #3-6 / 3,4,5
 #     # all_arr.append(num_arr[6:6+3])  #6-9 / 6,7,8
 # print(all_arr)
-
-
 
 
 
