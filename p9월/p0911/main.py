@@ -2,7 +2,6 @@
 
 title = ["번호", "이름", "국어", "영어", "수학", "합계", "평균"]
 k_title = ["no", "name", "kor", "eng", "math", "total", "avg"]
-
 stu = []
 sno = 1   # 학생성적인원변수
 

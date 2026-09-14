@@ -38,7 +38,7 @@ def writeStu():
 
 
 
-# 0.메인화면함수 선언
+# 0.메인화면함수 선언 
 def main_screen():
     print("[ 학생성적프로그램 ]")
     print("1. 성적입력")

@@ -1,3 +1,4 @@
+# 학생성적프로그램
 title = ["번호","이름","국어","영어","수학","합계","평균"]
 k_title = ["no","name","kor","eng","math","total","avg"]
 stu = []
@@ -24,7 +25,7 @@ while True:
             math = int(input("수학점수입력 : "))
             total = kor + eng + math
             avg = total/3
-            # 리스트저장
+    # 리스트저장
             stu.append({'no':no,'name':name,'kor':kor,'eng':eng,'math':math,'total':total,'avg':avg})
             print(f'{name} 학생성적이 저장되었습니다.')
             print()
