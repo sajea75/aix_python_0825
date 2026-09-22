@@ -22,10 +22,9 @@ with open('melon2.html','r',encoding='utf-8') as f:
 s_tbody = soup.tbody
 trs = s_tbody.find_all("tr")
 tds = trs[0].find_all("td")
-cnt = tds[7].find("span",{"class":"cnt"})
-print("좋아요 : ",cnt)
-
-
+cnt = tds[7].find("span",{"class":"cnt"}).get_text(strip=True)
+print(cnt)
+print(cnt[3:])
 
 print("완료")
 
@@ -37,4 +36,4 @@ print("완료")
 
 # soup = BeautifulSoup(res.text,'lxml') #html소스 변경-css문법
 # with open('melon1.html','w',encoding='utf-8') as f:
-#     f.write(soup.prettify())
+#     f.write(soup.prettify())  

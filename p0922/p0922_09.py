@@ -14,8 +14,8 @@ soup = BeautifulSoup(res.text,'lxml') #html소스 변경-css문법
 #     f.write(res.text)
 
 # with open('melon2.html','w',encoding='utf-8') as f:
-#     f.write(soup.prettify())
-#
+#     f.write(soup.prettify())  
+# 
 print("-"*50)
 # 1개 find, 여러개 find_all
 s_tbody = soup.tbody
@@ -40,6 +40,6 @@ for idx,tr in enumerate(trs):
         print("앨범명 :",tds[6].find("a").get_text())  #앨범명
         print("-"*30)
     except Exception as e:
-        print(e)
+        print(e)   
 
-print("완료!!")
+print("완료!!")     
