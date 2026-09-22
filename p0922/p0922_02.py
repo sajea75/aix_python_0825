@@ -18,7 +18,7 @@ print("파일저장 완료")
 # # print(res.text) # 모든데이터 읽어오기
 # print("응답 코드 : ",res.status_code)
 # print("프로그램을 종료합니다.")
-# # print("html소스 : ",res.text)
+# print("html소스 : ",res.text)
 
 # if res.status_code != 200:
 #     pass
