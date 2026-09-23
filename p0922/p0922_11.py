@@ -36,4 +36,4 @@ print("완료")
 
 # soup = BeautifulSoup(res.text,'lxml') #html소스 변경-css문법
 # with open('melon1.html','w',encoding='utf-8') as f:
-#     f.write(soup.prettify())  
+#     f.write(soup.prettify())
