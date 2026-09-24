@@ -8,7 +8,6 @@ import time
 import os
 from dotenv import load_dotenv
 
-
 # 2. selenium : 자동화 구현
 # 상단 제어창문구 삭제
 options = Options()

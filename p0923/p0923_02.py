@@ -8,20 +8,20 @@ import os
 
 headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36'}
 # # 2. selenium : 자동화 도구
-browser = webdriver.Chrome()
-url = "https://comic.naver.com/bestChallenge?sortType=starscore"
-# 브라우저 열기
-browser.get(url)
-time.sleep(4)
+# browser = webdriver.Chrome()
+# url = "https://comic.naver.com/bestChallenge?sortType=starscore"
+# # 브라우저 열기
+# browser.get(url)
+# time.sleep(4)
 
-# 파일저장
-soup = BeautifulSoup(browser.page_source,'lxml')
-with open('webtoon1.html','w',encoding='utf-8') as f:
-    f.write(soup.prettify())
+# # 파일저장
+# soup = BeautifulSoup(browser.page_source,'lxml')
+# with open('webtoon1.html','w',encoding='utf-8') as f:
+#     f.write(soup.prettify())
 
 # 파일 BeautifulSoup변환
 with open('webtoon1.html','r',encoding='utf-8') as f:
-    soup = BeautifulSoup(f,'lxml')
+    soup = BeautifulSoup(f,'lxml')  
 
 s_ul = soup.find('ul',{'class':'BestChallengeView__challenge_list--sUqhh'})
 lis = s_ul.find_all('li')
@@ -65,3 +65,11 @@ print('완료')
 # bb = int("2,120".replace(",",""))
 # cc = int("3,023".replace(",",""))
 # print((aa+bb+cc)/3)
+
+# a = '1,123만원'
+# print(a[:-1])
+# print(a[:-2])
+# print(a[-2:])
+# print(a[-1])
+# a_int = int(a[:-2].replace(",",""))
+# print(a_int)

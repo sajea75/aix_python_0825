@@ -35,11 +35,11 @@ from dotenv import load_dotenv
 # 파일 BeautifulSoup변환
 for idx in range(2022,2027):
     
-    with open(f'movie_{idx}.html','r',encoding='utf-8') as f:
-        soup = BeautifulSoup(f,'lxml')
+    with open(f'p0923/file/movie_{idx}.html','r',encoding='utf-8') as f:
+        soup = BeautifulSoup(f,'lxml')  
 
     # with open('p0923/file/movie_2022.html','r',encoding='utf-8') as f:
-    #     soup = BeautifulSoup(f,'lxml')
+    #     soup = BeautifulSoup(f,'lxml') 
 
     m_ul = soup.find('ul',{'class':'c-list-basic ty_flow35'})
     lis = m_ul.find_all('li')

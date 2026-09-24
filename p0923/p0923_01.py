@@ -19,7 +19,7 @@ import os
 
 # 파일 BeautifulSoup변환
 with open('stock1.html','r',encoding='utf-8') as f:
-    soup = BeautifulSoup(f,'lxml')
+    soup = BeautifulSoup(f,'lxml')     
 
 #------------------------------------
 # 상단제목추가
