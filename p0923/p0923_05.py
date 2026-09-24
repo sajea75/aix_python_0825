@@ -36,25 +36,25 @@ from dotenv import load_dotenv
 for idx in range(2022,2027):
     
     with open(f'p0923/file/movie_{idx}.html','r',encoding='utf-8') as f:
-        soup = BeautifulSoup(f,'lxml')  
-
-    # with open('p0923/file/movie_2022.html','r',encoding='utf-8') as f:
+   # with open('p0923/file/movie_2022.html','r',encoding='utf-8') as f:
     #     soup = BeautifulSoup(f,'lxml') 
+      soup = BeautifulSoup(f,'lxml')  
 
-    m_ul = soup.find('ul',{'class':'c-list-basic ty_flow35'})
-    lis = m_ul.find_all('li')
-    print(f'[ {idx}년 영화 ]')
-    for i in range(5):
-        # 1. 이미지링크
-        m_img = lis[i].find('img')['src']
-        print(m_img)
-        # 2. 영화제목
-        m_title = lis[i].find('strong',{'class':'tit-g clamp-g'}).get_text(strip=True)
-        print(m_title)
-        # 3. 누적관객수
-        m_desc = lis[i].find('p',{'class':'conts-desc clamp-g'}).get_text(strip=True)
-        print(int(m_desc[3:-2].replace(",","")))
-        # 4. 개봉날짜
-        m_date = lis[i].find('span',{'class':'conts-subdesc clamp-g'}).get_text(strip=True)
-        print(m_date)
-        print('-'*50)
+   
+#     m_ul = soup.find('ul',{'class':'c-list-basic ty_flow35'})
+#     lis = m_ul.find_all('li')
+#     print(f'[ {idx}년 영화 ]')
+#     for i in range(5):
+#         # 1. 이미지링크
+#         m_img = lis[i].find('img')['src']
+#         print(m_img)
+#         # 2. 영화제목
+#         m_title = lis[i].find('strong',{'class':'tit-g clamp-g'}).get_text(strip=True)
+#         print(m_title)
+#         # 3. 누적관객수
+#         m_desc = lis[i].find('p',{'class':'conts-desc clamp-g'}).get_text(strip=True)
+#         print(int(m_desc[3:-2].replace(",","")))
+#         # 4. 개봉날짜
+#         m_date = lis[i].find('span',{'class':'conts-subdesc clamp-g'}).get_text(strip=True)
+#         print(m_date)
+#         print('-'*50)
