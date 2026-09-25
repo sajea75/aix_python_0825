@@ -37,8 +37,8 @@ from dotenv import load_dotenv
 # print('더 이상 높이 변경이 없음')
 # time.sleep(1)
 
-# 파일저장해서 저장한 파일을 가지고 정보를 가져오기
-# 이미지, 숙소명, 별점, 리뷰수, 금액
+# # 파일저장해서 저장한 파일을 가지고 정보를 가져오기
+# # 이미지, 숙소명, 별점, 리뷰수, 금액
 # # 파일저장
 # soup = BeautifulSoup(browser.page_source,'lxml')
 # with open('yeogi1.html','w',encoding='utf-8') as f:
@@ -48,30 +48,35 @@ from dotenv import load_dotenv
 
 # 파일 BeautifulSoup변환
 with open('yeogi1.html','r',encoding='utf-8') as f:
-    soup = BeautifulSoup(f,'lxml')  
+    soup = BeautifulSoup(f,'lxml')
+   
 # 정보가져오기    
 s_ul = soup.find('ul',{'class':'css-y5z6rw'})
 lis = s_ul.find_all('li')
-for idx,li in enumerate(lis):
-    print(f"{idx+1}.")
-    try:
-        # 1. 이미지링크
-        s_img = li.find('img')['src']
-        print("이미지 : ",s_img)
-        # 2. 숙소명
-        s_title = li.find('h3',{'class':'gc-thumbnail-type-seller-card-title css-1gsfgy5'}).get_text(strip=True)
-        print("숙소명 : ",s_title)
-        # 3. 별점
-        s_star = li.find('span',{'class':'css-ry30z7'}).get_text(strip=True)
-        s_star = float(s_star)
-        print("평점 : ",s_star)
-        # 4. 평가수
-        s_view = li.find('span',{'class':'css-144z61f'}).get_text(strip=True)
-        s_view = int(s_view[:-4].replace(',',''))
-        print("평가수 : ",s_view)
-        s_price = li.find('span',{'class':'css-1llao6q'}).get_text(strip=True)
-        s_price = int(s_price.replace(',',''))
-        print("금액 : ",s_price)
-        print("-"*60)
-    except Exception as e:
-        print(e)
+
+s_img = lis[0].find('img')['src']
+print("이미지 : ",s_img)
+
+# for idx,li in enumerate(lis):
+#     print(f"{idx+1}.")
+#     try:
+#     _star = float(s_star)
+#         print("평점 : ",s_star)
+#         # 4. 평가수
+#         s_view = li.find('span',{'class':'css-144z61f'}).get_text(strip=True)
+#         s_view = int(s_view[:-4].replace(',',''))
+#         print("평가수 : ",s_view)
+#         s_price = li.find('span',{'class':'css-1llao6q'}).get_text(strip=True)
+#         s_price = int(s_price.replace(',',''))
+#         print("금액 : ",s_price)
+#         print("-"*60)
+#     except Exception as e:    # 1. 이미지링크
+#         s_img = li.find('img')['src']
+#         print("이미지 : ",s_img)
+#         # 2. 숙소명
+#         s_title = li.find('h3',{'class':'gc-thumbnail-type-seller-card-title css-1gsfgy5'}).get_text(strip=True)
+#         print("숙소명 : ",s_title)
+#         # 3. 별점
+#         s_star = li.find('span',{'class':'css-ry30z7'}).get_text(strip=True)
+#         s
+#         print(e)
